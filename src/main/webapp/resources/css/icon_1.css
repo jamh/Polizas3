@@ -1,0 +1,17 @@
+/* 
+    Document   : icon
+    Created on : 21/05/2013, 11:51:59 AM
+    Author     : ING. JAMH
+    Description:
+        Image to icon button
+*/
+
+.add-empleado-icon{background:transparent url(../img/add-empleado.png) 0px 0px no-repeat !important;}
+.add-icon{background:transparent url(../img/add.png) 0px 0px no-repeat !important;}
+.delete-icon{background:transparent url(../img/delete.png) 0px 0px no-repeat !important;}
+.search-icon{background:transparent url(../img/search.png) 0px 0px no-repeat !important;}
+.delete-empleado-icon{background:transparent url(../img/deleteUser.png) 0px 0px no-repeat !important;}
+.upload-image-icon{background:transparent url(../img/upload-image.png) 0px 0px no-repeat !important;}
+.view-pdf-icon{background:transparent url(../img/view-pdf.png) 0px 0px no-repeat !important;}
+
+

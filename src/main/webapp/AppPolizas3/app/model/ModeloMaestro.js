@@ -1,0 +1,43 @@
+Ext.define('AppPolizas3.model.ModeloMaestro', {
+    extend: 'Ext.data.Model',
+
+    fields: [
+        'ID',
+        'COMPANIA',
+        'TIPO_POLIZA',        
+       // { name: 'FECHA',   type: 'date',dateFormat: 'd/m/Y' },
+        'FECHA',
+        'NUMERO',
+        'UUID_RELACION',
+        'NOMBRE',
+        'DIVISA',
+        'DIVISA_NOM',
+        'PARIDAD',
+        'FUENTE',
+        'REFERENCIA',
+        'CARGOS_BASE',
+        'ABONOS_BASE',
+        'CARGOS',
+        'ABONOS',
+        'ESTATUS',
+        'USUARIO',
+        'FECHA_CAP',
+        'HORA',
+        'MODULO_ORIG',
+        'REVISO',
+        'AUTORIZO',
+        'NUM_CLC',
+        'PDF',
+        'XML',
+        'TIPO_SOLICITUD', 
+        'NUM_ORDEN',
+        'NUM_TRAMITE',
+        'FECHA_FACT',
+        'NUMERO_FACT',
+        'CXC_XML',
+        'CXC_PDF',
+        'NOM_CFDI',
+        'TIPO_SAT'
+    ]
+
+});

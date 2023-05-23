@@ -1,0 +1,86 @@
+translations = {
+  //Panel Login y Registro de Proveedores
+        manual: "Manual",
+        terminos:"T&eacute;rminos y uso de Condiciones",
+        usuarioAcceso:"Usuario",
+        passwordAcceso:"Password",
+        botonRegistro:"Regitrarse",
+        winRegistro:"Registro",
+        botonEntrar:"Entrar",
+        tituloAlertaAcceso:"Acceso",
+        mensajeAccesoExito:'Acceso correcto!',
+        tituloAcceso:"Acceso Portal Proveedores",
+        nombreProv:"Nombre o Raz&oacute;n Social",
+        tipoCuenta:"Tipo de Cuenta",
+        rfcProv:"RFC",
+        tPersona:"Persona",
+        tMoneda:"Moneda",
+        paisProv:"Pais",
+        directProv:"Direccion",
+        estadoProv:"Estado",
+        delegacionProv:"Delegacion",
+        coloniaProv:"Colonia",
+        cpProv:"CP",
+        calleProv:"Calle",
+        contactoProv:"Contacto",
+        bancoProv:"Banco",
+        cuentaBancoProv:"Cuenta Bancaria",
+        clabeProv:"Cuenta Clabe",
+        telProv:"Telefono",
+        correoProv:"Correo",
+        passProv:"Password",
+        repPassProv:"Repita Password",
+        btnGuardarReg:"Guardar",
+        ibaErrMgs:"IBAN es incorrecto. Este debe contener entre 25 y 34 caracteres",
+        swiftErrMgs:"Falta Ingresar dato SWIFT.",
+        swiftErrLength:"SWIFT es incorrecto. Este debe contener entre 8 y 11 caracteres.",
+        passErr:"Falta Ingresar dato de password.",
+        passErr2:"Error al guardar el registro. Los password no coinciden.",
+        correoErr:"El correo ya fue registrado.",
+        successRegistro:"Registro correcto!. Se env&iacute;o un correo electr&oacute;nico al proveedor, favor de verificarlo. ",
+        errorRegistro:"Error al guardar el registro. Favor de contactar con el &aacute;rea de soporte.",
+        
+    //formIngresaPortal
+        
+        formIngresaPortal:"Ingreso a Portal",
+        opcionIngresaPortalNac:"NACIONAL",
+        opcionIngresaPortalExt:"EXTRANJERO",
+        btnIngresaPortal:"Continuar",
+        titleIngreso:"Ingreso",
+        
+    //Main View
+    
+        titleFactNac:"Facturas Nacionales",
+        datosFactura:"Datos de la Factura",
+        descFactNac:"Seleccione un registro para ver sus detalles.",
+        bancosFactNac:"Datos Bancarios",
+        descBanFactNac:"Seleccione un registro para ver sus detalles.",
+        titleFactExt:"Facturas Extranjeras",
+        datGasto:"Datos del Gasto",
+        detDatGasto:"Seleccione un registro para ver sus detalles.",
+        
+     //GridCxpOtros
+         btnFiltroOtros:"Limpiar Filtros",
+         btnAddOtros:"Agregar CXP",
+         btnBorraOtros:"Borrar Registro",
+         btnEditBancOtros:"Editar Datos Bancarios",
+         btnVerArchivoOtros:"Ver Archivo",
+         btnSalirOtros:"Salir",
+         columnCompaniaOtros:"Compania",
+         columnNumeroOtros:"Numero",
+         columnFechaOtros:"Fecha",
+         columnRfcOtros:"RFC Emisor",
+         columnNombreOtros:"Nombre Emisor",
+         columnDescripcionOtros:"Descripcion",
+         estatusGastoPag:"Gasto Pagado",
+         estatusGastoEspera:"Gasto en espera",
+         estatusGastoCan:"Gasto cancelada",
+         columnSubtotalOtros:"Subtotal",
+         columnTotalOtros:"Total",
+         
+     //FormCxpOtros
+     
+      //   fieldFechaOtros:"Fecha de Factura",
+        
+
+}

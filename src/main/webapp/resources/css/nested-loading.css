@@ -1,0 +1,24 @@
+
+.review-list .review-title span{color:#8190a1}.review-list .review{margin:10px;padding:30px;background:#f0f2f4;line-height:18px}
+.review-list .review .title{font-size:18px;font-weight:bold;float: left}.review-list .review 
+.title img{
+    position: relative;
+    left: -5px;
+    top: -30px;
+
+    margin-right:1px;
+      background-color: white;
+    border-radius: 1px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.25);
+    display: table-cell;
+    padding: 5px;
+}
+.review-list .review .author{color:#363f49;font-size:11px;margin-bottom:5px}.review-list .review .author span{color:#20262c;font-weight:bold}.item-ct table{margin:50px auto}.item-ct .img{padding-right:10px;margin-right:10px;border-right:1px solid #cbc3c3;text-align:right}.item-ct .name{font-size:28px;font-weight:bold;text-wrap:nowrap}.item-ct .name span{color:#7b8b9d}.item-ct .author{color:#333;font-size:18px;border-bottom:1px solid #eaeaea;padding-bottom:10px;margin-bottom:10px}.item-ct .author span{color:#000}
+
+.thumb {
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.25);
+    display: table-cell;
+    padding: 16px;
+}

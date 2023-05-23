@@ -1,0 +1,60 @@
+/* 
+    Document   : formater
+    Created on : 14/05/2013, 01:24:58 PM
+    Author     : ING. JAMH
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.banner-title {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.5;
+    color:#298CDA;
+}
+
+
+
+.banner-text {
+    font-family:"ff-tisa-web-pro";
+    color: 	#0F0F0F;
+    letter-spacing:0.45px;
+    font-size: 12px;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.banner-text2 {
+    color: #767676;
+    font-size: 12px;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.price-fall .x-change-cell {
+    background-color: #FFB0C4;
+    color:red;
+}
+.price-rise .x-change-cell {
+    background-color: #B0FFC5;
+    color:green;
+}
+
+.notValidSat .x-change-cell {
+    background-color: #faa732;
+    color:#0F0F0F;
+}
+
+.notFactSat .x-change-cell {
+    background-color: #848484;
+    color:#848484;
+}
+
+.folioGe .x-change-cell {
+
+}
+

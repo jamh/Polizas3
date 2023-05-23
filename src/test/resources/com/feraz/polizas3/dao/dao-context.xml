@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+    <bean id="processDao" class="org.jamh.data.process.ProcessDao">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    
+    <bean id="process" class="org.jamh.genericscontroller1.controllers.Process">
+        <property name="processDao" ref="processDao"/>               
+    </bean>
+    <bean id="foliosPolizasDao" class="com.feraz.polizas3.dao.impl.FoliosPolizasDaoImpl">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+        
+    <bean id="maestroValidation" class="com.feraz.polizas3.validation.MaestroValidation">                    
+        <property name="processDao" ref="processDao"/> 
+    </bean> 
+    
+      <bean id="erpNomPolizaDao" class="com.feraz.contabilidad.nomina.dao.impl.ErpNomPolizaDaoImpl">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    
+     <bean id="erpNomCancelaDao" class="com.feraz.contabilidad.nomina.dao.impl.ErpNomCancelaDaoImpl">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+        
+    <bean id="detalleValidation" class="com.feraz.polizas3.validation.DetalleValidation">                    
+        <property name="processDao" ref="processDao"/> 
+    </bean> 
+    
+     <bean id="polizasArchivosDao" class="com.feraz.polizas3.dao.impl.PolizasArchivosDaoImpl">
+            <property name="sessionFactory" ref="sessionFactory"/>
+        </bean>
+        
+        <bean id="cuentasDao" class="com.feraz.cuentas.dao.impl.CuentasDaoImpl">
+            <property name="sessionFactory" ref="sessionFactory"/>
+        </bean>
+        
+         <bean id="erpSeguiDocumentosDao" class="com.feraz.cxp.dao.impl.ErpSeguiDocumentosDaoImpl">
+        
+         <property name="sessionFactory" ref="sessionFactory"/>     
+       
+    </bean>
+    
+       <bean id="erpCClientesDao" class="com.feraz.cxp.dao.impl.ErpCClientesDaoImpl">
+        
+         <property name="sessionFactory" ref="sessionFactory"/>     
+       
+        </bean>
+</beans>

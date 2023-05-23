@@ -1,0 +1,10 @@
+# Ignorando JPG's y PNG's
+
+/*.class
+/*.tmp
+
+
+# Ignorando la Carpeta Vacía
+
+/target
+

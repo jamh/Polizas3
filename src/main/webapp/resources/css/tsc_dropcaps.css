@@ -1,0 +1,81 @@
+.one_fourth { float: left; margin-bottom: 0; margin-right: 4%; min-height: 1px; position: relative; width: 22%; font-size:10px; }
+.one_fourth strong { font-size:13px;}
+.last { clear: right; margin-right: 0 !important; }
+/* Backgrounds & Borders 
+-------------------------------------------------------------- */
+.red { background-color:#700 !important; border-color:#700 !important; }
+.orange { background-color:#e98813 !important; border-color:#e98813 !important; }
+.yellow { background-color:#f7c808 !important; border-color:#f7c808 !important; }
+.green { background-color:#74941f !important; border-color:#74941f !important; }
+.olive { background-color:#3a491a !important; border-color:#3a491a !important; }
+.teal { background-color:#089 !important; border-color:#089 !important; }
+.blue { background-color:#00437f !important; border-color:#00437f !important; }
+.deepblue { background-color:#092334 !important; border-color:#092334 !important; }
+.purple { background-color:#4b2c5a !important; border-color:#4b2c5a !important; }
+.hotpink { background-color:#bc006e !important; border-color:#bc006e !important; }
+.slategrey { background-color:#3b424a !important; border-color:#3b424a !important; }
+.mauve { background-color:#625b56 !important; border-color:#625b56 !important; }
+.pearl { background-color:#ab998f !important; border-color:#ab998f !important; }
+.steelblue { background-color:#788794 !important; border-color:#788794 !important; }
+.mossgreen { background-color:#717a75 !important; border-color:#717a75 !important; }
+.wheat { background-color:#79745d !important; border-color:#79745d !important; }
+.coffee { background-color:#372e25 !important; border-color:#372e25 !important; }
+.copper { background-color:#6b3c02 !important; border-color:#6b3c02 !important; }
+.silver { background-color:#ddd !important; border-color:#d0d0d0 !important; color:#444!important; }
+.black { background-color:#111 !important; border-color:#111 !important; }
+.white { background-color:#fff !important; border-color:#eee !important; color:#aaa!important; }
+/* Icon Variations 
+-------------------------------------------------------------- */
+.red_dropcaps { background-image:url(../images/dropcaps_770000.png) !important; }
+.orange_dropcaps { background-image:url(../images/dropcaps_e98813.png) !important; }
+.yellow_dropcaps { background-image:url(../images/dropcaps_f7c808.png) !important; }
+.green_dropcaps { background-image:url(../images/dropcaps_74941f.png) !important; }
+.olive_dropcaps { background-image:url(../images/dropcaps_3a491a.png) !important; }
+.teal_dropcaps { background-image:url(../images/dropcaps_008899.png) !important; }
+.blue_dropcaps { background-image:url(../images/dropcaps_00437f.png) !important; }
+.deepblue_dropcaps { background-image:url(../images/dropcaps_092334.png) !important; }
+.purple_dropcaps { background-image:url(../images/dropcaps_4b2c5a.png) !important; }
+.hotpink_dropcaps { background-image:url(../images/dropcaps_bc006e.png) !important; }
+.slategrey_dropcaps { background-image:url(../images/dropcaps_3b424a.png) !important; }
+.mauve_dropcaps { background-image:url(../images/dropcaps_625b56.png) !important; }
+.pearl_dropcaps { background-image:url(../images/dropcaps_ab998f.png) !important; }
+.steelblue_dropcaps { background-image:url(../images/dropcaps_788794.png) !important; }
+.mossgreen_dropcaps { background-image:url(../images/dropcaps_717a75.png) !important; }
+.wheat_dropcaps { background-image:url(../images/dropcaps_79745d.png) !important; }
+.coffee_dropcaps { background-image:url(../images/dropcaps_372e25.png) !important; }
+.copper_dropcaps { background-image:url(../images/dropcaps_6b3c02.png) !important; }
+.silver_dropcaps { background-image:url(../images/dropcaps_dddddd.png) !important; }
+.black_dropcaps { background-image:url(../images/dropcaps_222222.png) !important; }
+/* Text Variations 
+-------------------------------------------------------------- */
+.red_text{color:#700 !important;}
+.orange_text{color:#e98813 !important;}
+.yellow_text{color:#f7c808 !important;}
+.green_text{color:#74941f !important;}
+.olive_text{color:#3a491a !important;}
+.teal_text{color:#089 !important;}
+.blue_text{color:#00437f !important;}
+.deepblue_text{color:#092334 !important;}
+.purple_text{color:#4b2c5a !important;}
+.hotpink_text{color:#bc006e !important;}
+.slategrey_text{color:#3b424a !important;}
+.mauve_text{color:#625b56 !important;}
+.pearl_text{color:#ab998f !important;}
+.steelblue_text{color:#788794 !important;}
+.mossgreen_text{color:#717a75 !important;}
+.wheat_text{color:#79745d !important;}
+.coffee_text{color:#372e25 !important;}
+.copper_text{color:#6b3c02 !important;}
+.silver_text{color:#ddd !important;}
+.black_text{color:#111 !important;}
+/* Dropcaps 
+-------------------------------------------------------------- */
+.tsc_dropcap,
+.tsc_dropcap3,
+.tsc_dropcap4 { text-align:center; float:left; color:#fff; }
+.tsc_dropcap { background:url(../images/dropcaps_dddddd.png) no-repeat -7px -7px; margin:0 10px -5px 0; line-height:40px; font-size:25px; height:44px; width:40px; }
+.tsc_dropcap4 { background:url(../images/button_overlay.png) repeat-x 0 0 #111; border:1px solid #111; line-height:35px; margin:0 10px 0 0; font-size:17px; height:35px; width:35px; }
+.tsc_dropcap3 { background:url(../images/dropcaps_dddddd.png) no-repeat -7px -70px; line-height:35px; margin-right:5px; font-size:15px; height:40px; padding-right: 2px; width: 38px; }
+.tsc_dropcap2 { display:block; float:left; font-size:40px; line-height:40px; margin:-2px 8px -5px 0; }
+.tsc_dropcap4 { box-shadow: 1px 1px 0 rgba(255, 255, 255, 0.4) inset, -1px -1px 0 rgba(255, 255, 255, 0.4) inset, 1px 0 0 rgba(0, 0, 0, 0.1); }
+.tsc_dropcap4 { background-position: 0 -8px; border-width: 3px; }

@@ -1,0 +1,53 @@
+Ext.define('AppTransaccionSAT.model.ModeloTransaccion', {
+    extend: 'Ext.data.Model',
+
+    fields: [
+             'FOLIO_CFDI',
+             'FECHA_CFDI',
+             'EMISOR_CFDI',
+             'ID', 
+             'COMPANIA', 
+             'ORIGEN_PAGO', 
+             'T_DOC_PAGO', 
+             'FOLIO_PAGO', 
+             'SEC_PAGO', 
+             'NUM_CTA', 
+             'DES_CTA', 
+             'CONCEPTO', 
+             'DEBE', 
+             'HABER', 
+             'TIPO', 
+             'UUID_CFDI', 
+             'RFC', 
+             'CFD_CBB_SERIE',
+             'CFD_CBB_NUMFOL', 
+             'NUM_FACT_EXT', 
+             'TAX_ID', 
+             'NUM', 
+             'BAN_EMIS_NAL', 
+             'BAN_EMIS_EXT', 
+             'FECHA', 
+             'BENEF', 
+             'CTA_ORI', 
+             'BANCO_ORI_NAL', 
+             'BANCO_ORI_EXT', 
+             'CTA_DEST', 
+             'BANCO_DEST_NAL', 
+             'BANCO_DEST_EXT', 
+             'MET_PAGO_POL', 
+             'MONTO_TOTAL', 
+             'MONEDA', 
+             'TIP_CAMB',
+             'ID_TRANSACCION',
+             'MET_PAGO_AUX',
+             'NOMBRE_BAN_EMIS_NAL',
+             'NOMBRE_BANCO_ORI_NAL',
+             'NOMBRE_BANCO_DEST_NAL',
+             'NOMBRE_MET_PAGO_AUX',
+             'NOMBRE_MET_PAGO_POL',
+             'NOMBRE_MONEDA'
+
+            ]
+
+});
+

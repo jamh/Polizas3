@@ -1,0 +1,127 @@
+/* 
+    Document   : icon
+    Created on : 21/05/2013, 11:51:59 AM
+    Author     : ING. JAMH
+    Description:
+        Image to icon button
+*/
+
+.add-empleado-icon{background:transparent url(../icon/add-empleado.png) 0px 0px no-repeat !important;}
+.add-icon{background:transparent url(../icon/add.png) 0px 0px no-repeat !important;}
+.cancel-icon{background:transparent url(../icon/cancel.png) 0px 0px no-repeat !important;}
+.delete-icon{background:transparent url(../icon/delete.png) 0px 0px no-repeat !important;}
+.search-icon{background:transparent url(../icon/search.png) 0px 0px no-repeat !important;}
+.delete-empleado-icon{background:transparent url(../icon/deleteUser.png) 0px 0px no-repeat !important;}
+.upload-image-icon{background:transparent url(../icon/upload-image.png) 0px 0px no-repeat !important;}
+.view-pdf-icon{background:transparent url(../icon/view-pdf.png) 0px 0px no-repeat !important;}
+.save-icon{background:transparent url(../icon/save.png) 0px 0px no-repeat !important;}
+.logout-icon{background:transparent url(../icon/logout.png) 0px 0px no-repeat !important;}
+.edit-icon{background:transparent url(../icon/edit.png) 0px 0px no-repeat !important;}
+.csv-icon{background:transparent url(../icon/excel_1_.png) 0px 0px no-repeat !important;}
+.copy-icon{background:transparent url(../icon/copiar_icono.png) 0px 0px no-repeat !important;}
+.word-icon{background:transparent url(../icon/iconword.png) 0px 0px no-repeat !important;}
+.pdf-icon{background:transparent url(../icon/iconopdf.png) 0px 0px no-repeat !important;}
+.impresora-icon{background:transparent url(../icon/impresora-icon.png) 0px 0px no-repeat !important;}
+.processFE-icon{background:transparent url(../icon/processPoliza.png) 0px 0px no-repeat !important;}
+.xml-icon{background:transparent url(../icon/xml.png) 0px 0px no-repeat !important;}
+.reload-icon{background:transparent url(../icon/reload.png) 0px 0px no-repeat !important;}
+.process-icon{background:transparent url(../icon/process.png) 0px 0px no-repeat !important;}
+.directory-icon{background:transparent url(../icon/directory.png) 0px 0px no-repeat !important;}
+.polizas-icon{background:transparent url(../icon/polizas.png) 0px 0px no-repeat !important;}
+.poliza-icon{background:transparent url(../icon/poliza.png) 0px 0px no-repeat !important;}
+.checkall-icon{background:transparent url(../icon/check.png) 0px 0px no-repeat !important;}
+.clean-filter-icon{background:transparent url(../icon/clean-filter.png) 0px 0px no-repeat !important;}
+.fecha-icon{background:transparent url(../icon/fecha-icono.png) 0px 0px no-repeat !important;}
+.dolar-icon{background:transparent url(../icon/dollar-money.png) 0px 0px no-repeat !important;}
+.converter-icon{background:transparent url(../icon/converter.png) 0px 0px no-repeat !important;}
+.see-icon{background:transparent url(../icon/see.png) 0px 0px no-repeat !important;}
+.diot-icon{background:transparent url(../icon/good_1.png) 0px 0px no-repeat !important;}
+.download-sat{background:transparent url(../icon/download-sat.png) 0px 0px no-repeat !important;}
+.icon-sat{background:transparent url(../icon/SAT2.png) 0px 0px no-repeat !important;}
+.icon-relacion{background:transparent url(../icon/relacion-icono.png) 0px 0px no-repeat !important;}
+.icon-quitarrelacion{background:transparent url(../icon/eliminaRelacion-icono.png) 0px 0px no-repeat !important;}
+.icon-rembolso{background:transparent url(../icon/rembolso2.png) 0px 0px no-repeat !important;}
+.icon-red{background:transparent url(../icon/RED.png) 0px 0px no-repeat !important;}
+.icon-green{background:transparent url(../icon/green.png) 0px 0px no-repeat !important;}
+
+/*
+Icon made by [author link] from www.flaticon.com 
+E.g.: Icon made by Freepik from www.flaticon.com 
+*/
+
+.icon-credito{background:transparent url(../icon/tarjeta-de-credito.png) 0px 0px no-repeat !important;}
+.icon-lista{background:transparent url(../icon/lista.png) 0px 0px no-repeat !important;}
+.icon-grafico{background:transparent url(../icon/grafico.png) 0px 0px no-repeat !important;}
+
+
+.x-action-col-cell img {
+    width: 16px;
+    height: 16px;
+    margin-top: 3px;
+    margin-right: 3px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.x-action-col-cell img.factura-valida
+{
+    background-image: url(../icon/good_1.png);
+}
+.x-action-col-cell img.exito
+{
+    background-image: url(../icon/exito.png);
+}
+.x-action-col-cell img.error
+{
+    background-image: url(../icon/error.png);
+}
+.x-action-col-cell img.rembolso-icon
+{
+    background-image: url(../icon/rembolso2.png);
+}
+.x-action-col-cell img.xmlGe-icon
+{
+    background-image: url(../icon/xml2.png);
+}
+.x-action-col-cell img.validandoFactura
+{
+    background-image: url(../icon/satLoading.gif);
+}
+
+.x-action-col-cell img.factura-mal
+{
+    background-image: url(../icon/warning_1.png);
+}
+
+.x-action-col-cell img.factura-pendiente
+{
+    background-image: url(../icon/questions.png);
+}
+
+.x-action-col-cell img.error-validacion
+{
+    background-image: url(../icon/warning.png);
+}
+
+.text-right { text-align:left; }
+
+
+.x-action-col-cell img.img-red
+{
+    background-image: url(../icon/RED.png);
+}
+.x-action-col-cell img.img-green
+{
+    background-image: url(../icon/green.png);
+}
+.x-action-col-cell img.img-yellow
+{
+    background-image: url(../icon/yellow.png);
+}
+
+.x-action-col-cell img.img-wait
+{
+    background-image: url(../icon/timer2.png);
+}
+

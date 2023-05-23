@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoints version="2.0" xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime">
+  <endpoint implementation="com.feraz.contabilidad.ws.WSUploadCFDI" name="WSCFDI" url-pattern="/WSCFDI"/>
+  <endpoint implementation="com.feraz.contabilidad.ws.WSContabilidad" name="WSContabilidad" url-pattern="/WSContabilidad"/>
+  <endpoint implementation="com.feraz.contabilidad.ws.nomina.WSContab" name="WSContabService" url-pattern="/WSContabService"/>
+  <endpoint implementation="com.feraz.intercos.WSIntercompaniasCXP" name="WSIntercompaniasCXP" url-pattern="/WSIntercompaniasCXP"/>
+  <endpoint implementation="com.feraz.contabilidad.sat.electronica.ws.WSContaElectronica" name="WSContaElectronicaService" url-pattern="/WSContaElectronicaService"/>
+  <endpoint implementation="com.feraz.contabilidad.ws.WScfdi" name="WScfdi" url-pattern="/WScfdi"/>
+  <endpoint implementation="com.feraz.contabilidad.ws.WSProveedores" name="WSProveedores" url-pattern="/WSProveedores"/>
+  <endpoint implementation="com.feraz.ordencompra.ws.WSOrdenCompra" name="WSOrdenCompra" url-pattern="/WSOrdenCompra"/>
+  <endpoint implementation="com.feraz.ordencompra.ws.WSProductos" name="WSProductos" url-pattern="/WSProductos"/>
+  <endpoint implementation="com.feraz.universidad.ws.WSProveedoresUni" name="WSProveedoresUni" url-pattern="/WSProveedoresUni"/>
+</endpoints>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:tx="http://www.springframework.org/schema/tx"     
+       xmlns:ws="http://jax-ws.dev.java.net/spring/core"
+       xmlns:wss="http://jax-ws.dev.java.net/spring/servlet" 
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd
+                  http://jax-ws.dev.java.net/spring/core
+                http://jax-ws.dev.java.net/spring/core.xsd
+                http://jax-ws.dev.java.net/spring/servlet
+                http://jax-ws.dev.java.net/spring/servlet.xsd
+          ">
+
+    <import resource="classpath:/com/feraz/polizas3/data/datasource-context.xml" />	
+    <import resource="classpath:/com/feraz/polizas3/dao/dao-context.xml" />
+    <import resource="classpath:/com/feraz/polizas3/data/hibernate-context.xml" />
+    <import resource="classpath:/com/feraz/polizas3/aop/aop-context.xml" />
+    <import resource="classpath:/com/feraz/polizas3/view/view-context.xml" />    
+          
+    
+
+ 
+       
+       
+    
+    <bean id="rdbmPropertiesPlacholder" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer" lazy-init="false">
+        <property name="locations">
+            <list>
+                <value>classpath:config.properties</value>
+                <value>classpath:jdbc.properties</value>
+            </list>
+        </property>
+    </bean>
+ 
+    <wss:binding url="/ws/WSContab">
+        <wss:service>
+            <ws:service bean="#wsContab"/>
+        </wss:service>
+    </wss:binding>
+    
+    <wss:binding url="/ws/WSContabilidad">
+        <wss:service>
+            <ws:service bean="#wsContabilidad"/>
+        </wss:service>
+    </wss:binding>
+    
+    <wss:binding url="/ws/WSContaElectronica">
+        <wss:service>
+            <ws:service bean="#wSContaElectronica"/>
+        </wss:service>
+    </wss:binding>
+    
+    
+    <wss:binding url="/ws/wsUploadCFDI">
+        <wss:service>
+            <ws:service bean="#wsUploadCFDI"/>
+        </wss:service>
+    </wss:binding>
+    
+    <wss:binding url="/ws/WSIntercompaniasCXP">
+        <wss:service>
+            <ws:service bean="#wsIntercompaniasCXP"/>
+        </wss:service>
+    </wss:binding>
+    
+    <wss:binding url="/ws/WScfdi">
+        <wss:service>
+            <ws:service bean="#wScfdi"/>
+        </wss:service>
+    </wss:binding>
+    
+    <wss:binding url="/ws/WSProveedores">
+        <wss:service>
+            <ws:service bean="#wSProveedores"/>
+        </wss:service>
+    </wss:binding>
+    
+    <wss:binding url="/ws/WSOrdenCompra">
+        <wss:service>
+            <ws:service bean="#wSOrdenCompra"/>
+        </wss:service>
+    </wss:binding>
+
+     <wss:binding url="/ws/WSProductos">
+        <wss:service>
+            <ws:service bean="#wSProductos"/>
+        </wss:service>
+    </wss:binding>
+    
+    <wss:binding url="/ws/WSProveedoresUni">
+        <wss:service>
+            <ws:service bean="#wSProveedoresUni"/>
+        </wss:service>
+    </wss:binding>
+    
+    <context:property-placeholder location="classpath:jdbc.properties"/>
+        
+          
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        
+        <property name="maxUploadSize" value="3145728" />
+
+    </bean>
+    
+    <mvc:annotation-driven />
+        <mvc:resources location="/resources/" mapping="/resources/**" />
+    <mvc:resources location="/AppPolizas3/" mapping="/AppPolizas3/**" />
+    <mvc:resources location="/AppCargaFE/" mapping="/AppCargaFE/**" />
+    <mvc:resources location="/AppCargaFE2/" mapping="/AppCargaFE2/**" />
+    <mvc:resources location="/AppConvertidor/" mapping="/AppConvertidor/**" />
+    <mvc:resources location="/AppFEPolizas/" mapping="/AppFEPolizas/**" />
+    <mvc:resources location="/AppAyuda/" mapping="/AppAyuda/**" />
+    <mvc:resources location="/AppDashboard/" mapping="/AppDashboard/**" />
+    <mvc:resources location="/AppCXPFacturas/" mapping="/AppCXPFacturas/**" />
+    <mvc:resources location="/AppCuentas/" mapping="/AppCuentas/**" />
+    <mvc:resources location="/AppReadCFDI/" mapping="/AppReadCFDI/**" />
+    <mvc:resources location="/AppTransaccionSAT/" mapping="/AppTransaccionSAT/**" />
+    <mvc:resources location="/AppConsolida/" mapping="/AppConsolida/**" />
+    <mvc:resources location="/AppFormulas/" mapping="/AppFormulas/**" />
+    <mvc:resources location="/AppClientes/" mapping="/AppClientes/**" />
+    <mvc:resources location="/AppProveedores/" mapping="/AppProveedores/**" />
+    <mvc:resources location="/AppPortal/" mapping="/AppPortal/**" />
+    <mvc:resources location="/AppIntercos/" mapping="/AppIntercos/**" />
+    <mvc:resources location="/AppCuentas2/" mapping="/AppCuentas2/**" />
+    <mvc:resources location="/AppPortalFolio/" mapping="/AppPortalFolio/**" />
+    <mvc:resources location="/AppPortalAereo/" mapping="/AppPortalAereo/**" />   
+    <mvc:resources location="/AppOrdenCompra/" mapping="/AppOrdenCompra/**" />
+    <mvc:resources location="/AppPortalBaca/" mapping="/AppPortalBaca/**" />
+    <mvc:resources location="/AppPortalInsurgentes/" mapping="/AppPortalInsurgentes/**" />
+    
+    
+    
+    
+     
+	
+    <context:annotation-config />
+    <context:component-scan base-package="com.feraz.aop,com.feraz.polizas3,org.jamh.genericscontroller1,com.feraz.facturas.webcontrolfe,com.feraz.contabilidad.sat.electronica,com.feraz.contabilidad.convertidor,com.feraz.contabilidad.nomina,com.feraz.contabilidad.sat.diot,com.feraz.cxp,com.feraz.upload,com.feraz.cuentas,com.feraz.cfdi,com.feraz.contabilidad.sat.transacciones,com.feraz.contabilidad.saldos,com.feraz.contabilidad.ws,com.feraz.avisos,com.feraz.formula,com.feraz.portal, com.feraz.token,com.feraz.intercos,com.feraz.ordencompra,com.feraz.universidad" />
+    
+        
+        
+
+
+</beans>
